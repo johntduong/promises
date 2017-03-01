@@ -21,6 +21,8 @@ var pluckFirstLineFromFileAsync = function(filePath) {
     });
   });
   return pluck;
+
+  // callback occurs with .then on pluckFirstLineFromFile (promise.then(function()))
 };
 
 // This function should retrieve the status code of a GET request to `url`
